@@ -6,16 +6,14 @@ This is a tool created for sync repositories (mostly created by kids) into a ser
 
 Inside the file `config.js` you have an object with an array property called `repo`. This array must contain an object with a repo url and a destination folder as following:
 
-<code>
-{
-	repos: [
-		{
-			url: 'git@github.com:murilopolese/scriptcraftmods.git',
-			dest: '~/minecraft/plugins/scriptcraft/players/burrilove'
-		}
-	]
-}
-</code>
+	{
+		repos: [
+			{
+				url: 'git@github.com:murilopolese/scriptcraftmods.git',
+				dest: '~/minecraft/plugins/scriptcraft/players/burrilove'
+			}
+		]
+	}
 
 ## Running
 
