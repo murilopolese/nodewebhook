@@ -5,9 +5,10 @@ var app = express();
 var config = require( './config.js' );
 
 var pull = function( repo ) {
+	exec( 'rm -rf ' + repo.dest );
 	exec( 'mkdir ' + repo.dest );
 	exec( 'git clone ' + repo.url + ' ' + repo.dest );
-	exec( '(cd ' + repo.dest + ' && git pull)')
+	/*exec( '(cd ' + repo.dest + ' && git pull origin master)');*/
 }
 
 config.repos.forEach( pull );
