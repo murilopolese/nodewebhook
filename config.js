@@ -2,7 +2,7 @@ var config = {
 	repos: [
 		{
 			url: 'git@github.com:murilopolese/scriptcraftmods.git',
-			dest: '/home/murilo/Projects/nodehook/tmp/scriptcraftmods'
+			dest: '~/minecraft/plugins/scriptcraft/players/burrilove'
 		}
 	]
 };
