@@ -1,0 +1,15 @@
+{
+	"name": "nodehook",
+	"version": "0.0.1",
+	"description": "Configurable webhook receiver for nodejs",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "4.*"
+	},
+	"author": "Murilo Polese <murilopolese@gmail.com>",
+	"license": "WTFPL"
+}
