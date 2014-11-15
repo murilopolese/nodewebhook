@@ -11,6 +11,10 @@ Inside the file `config.js` you have an object with an array property called `re
 			{
 				url: 'git@github.com:murilopolese/scriptcraftmods.git',
 				dest: '~/minecraft/plugins/scriptcraft/players/burrilove'
+			},
+			{
+				url: 'git@ANOTHER-GIT-REPOSITORY.git',
+				dest: 'ANOTHER PATH'
 			}
 		]
 	}
