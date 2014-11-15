@@ -14,6 +14,7 @@ var pull = function( repo ) {
 config.repos.forEach( pull );
 
 app.all( '/', function( req, res ) {
+	exec( 'echo ' + new Date() + ' >> hook.log' );
 	console.log( 'hook', new Date() );
 	config.repos.forEach( pull );
 	res.end();
