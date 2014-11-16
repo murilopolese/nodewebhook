@@ -6,7 +6,7 @@ var config = {
 		},
 		{
 			url: 'https://github.com/TheHackerOf2014/Mods.git',
-			dest: '~/minecraft/plugins/scriptcraft/plugins/ETG2'
+			dest: '~/minecraft/plugins/scriptcraft/plugins/ETEGE2'
 		},
 		{
 			url: 'https://github.com/isakmonka/My-Mod.git',
